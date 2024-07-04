@@ -17,3 +17,12 @@ Pseudocodice
 5.1 ALLORA la stinga è palindroma
 5.2 (ALTRIMENTI) la stringa non è palindroma
 6 mostro il risultato della funzione
+
+PARI E DISPARI
+L’utente inserisce prima  "pari" o "dispari" poi inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+Sommiamo i due numeri
+Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+Dichiariamo chi ha vinto.
+
+Pseudocodice
+
