@@ -20,6 +20,16 @@ if (user_num > 0 && user_num <= 5) {
     document.getElementById('sum').innerText = sum;
     // dichiaro la variabile (pari o dispari) del pc
     let pc_value;
+    // istruzione condizionale per valore pari
+    if (sum % 2 == 0) {
+        pc_value = 'pari';
+    }
+    // istruzione condizionale per valore dispari
+    else if (user_value % 2 != 0) {
+        pc_value = 'dispari';
+    }
+    // chiamo la funzione
+    let result = valueCompare(user_value, pc_value);
     
 }
 // altrimenti compare messaggio di errore
