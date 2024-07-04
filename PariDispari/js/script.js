@@ -12,6 +12,14 @@ if (user_num > 0 && user_num <= 5) {
         }
         return false;
     }
+    // dichiaro e inizializzo la variabile contenente il numero random
+    let pc_num = Math.floor((Math.random() * 5 + 1));
+    document.getElementById('pc-num').innerText = pc_num;
+    // sommo il numero generato dal pc (random) al numero inserito dall'utente
+    let sum = user_num + pc_num;
+    document.getElementById('sum').innerText = sum;
+    // dichiaro la variabile (pari o dispari) del pc
+    let pc_value;
     
 }
 // altrimenti compare messaggio di errore
