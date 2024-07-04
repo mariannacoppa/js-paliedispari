@@ -30,7 +30,15 @@ if (user_num > 0 && user_num <= 5) {
     }
     // chiamo la funzione
     let result = valueCompare(user_value, pc_value);
-    
+    // confronto tra il valore inserito dall'utente con quello della somma
+    if (user_value == pc_value) {
+        // se corrispondono, compare il messaggio di vincita
+        alert('Hai vinto!');
+    }
+    else {
+        // se non corrispondono, compare messaggio "hai perso"
+        alert('hai perso');
+    }
 }
 // altrimenti compare messaggio di errore
 else {
