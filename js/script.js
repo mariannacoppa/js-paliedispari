@@ -17,5 +17,12 @@ let result = palDetect(word);
 // 5 controllo tra valore restituito dalla fnuzione e parametro dell'utente
 // 5.1 SE il valore dato dall'operazione corrisponde al parametro dato dall'utente
 if (result === true) {
-    
+    // 5.1 ALLORA la stinga è palindroma
+    // 6 mostro il risultato della funzione
+    alert('Sì! La parola è palindroma!');
+}
+// 5.2 (ALTRIMENTI) la stringa non è palindroma
+else {
+    // 6 mostro il risultato della funzione
+    alert('La parola non è palindroma');
 }
