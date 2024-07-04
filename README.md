@@ -26,20 +26,17 @@ Dichiariamo chi ha vinto.
 
 Pseudocodice
 
-1 dichiaro la funzione che deve: 
-1.1 confrontare il valore (pari o dispari) scelto all'utente con quello del risultato dell'operazione successiva (somma)
-1.2 sommare il numero generato dal pc (random) al numero inserito dall'utente
-2 restituisco il valore e la somma
-2.1 prendo il valore (pari o dispari) inserito dall'utente
-2.2 prendo il numero inserito dall'utente, prendo quello randomico e li sommo
-3 SE il valore (pari o dispari) della somma corrisponde a quello scelto dall'utente
-3.1 ALLORA imposto return true
-4 SE il valore (pari o dispari) della somma NON corrisponde a quello scelto dall'utente 
-4.1 ALLORA imposto return false
-5 permetto l'inserimento del valore e del numero da parte dell'utente
-6 chiamo la funzione senza parametro e la seconda con parametro
-7 confronto tra il valore inserito dall'utente con quello della somma
-7.1 SE corrispondono
-7.1.1 ALLORA compare messaggio "hai vinto"
-7.2 ALTRIMENTI compare messaggio "ritenta"
-
+1 permetto l'inserimento del valore e del numero da parte dell'utente
+2 obbligo l'utente ad inserire solo numeri compresi tra 1 e 5
+3 dichiaro la funzione
+3.1 confronta il valore (pari o dispari) scelto all'utente con quello del risultato dell'operazione successiva (somma)
+4 dichiaro e inizializzo la variabile contenente il numero random
+5 sommo il numero generato dal pc (random) al numero inserito dall'utente
+6 dichiaro la variabile (pari o dispari) del pc
+7 istruzione condizionale per valore pari
+8 istruzione condizionale per valore dispari
+9 chiamo la funzione
+10 confronto tra il valore inserito dall'utente con quello della somma
+10.1 se corrispondono, compare il messaggio di vincita
+10.2 se non corrispondono, compare messaggio "hai perso"
+2.1 altrimenti appare messaggio di errore
