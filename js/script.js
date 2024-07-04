@@ -10,3 +10,5 @@ function palDetect (word) {
         return false;
     }
 }
+// 3 consento l'inserimento della parola (parametro) da parte dell'utente
+let word = prompt('inserisci una parola (senza spazi) e ti dirò se è palindroma').toLowerCase();
