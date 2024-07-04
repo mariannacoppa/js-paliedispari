@@ -14,3 +14,8 @@ function palDetect (word) {
 let word = prompt('inserisci una parola (senza spazi) e ti dirò se è palindroma').toLowerCase();
 // 4 chiamo la funzione
 let result = palDetect(word);
+// 5 controllo tra valore restituito dalla fnuzione e parametro dell'utente
+// 5.1 SE il valore dato dall'operazione corrisponde al parametro dato dall'utente
+if (result === true) {
+    
+}
